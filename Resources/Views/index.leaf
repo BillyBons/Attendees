@@ -1,0 +1,51 @@
+#extend("base")
+
+#export("body") {
+
+<div class="row">
+    <div class="u-full-width">
+        <h5>Add new attendees</h5>
+    </div>
+</div>
+
+<form action="/admin" method="post">
+    <div class="row">
+        <div class="three columns">
+            <label>Name</label>
+            <input name="name" class="u-fill-width" placeholder="name"/>
+        </div>
+        <div class="five columns">
+            <label>Email</label>
+            <input name="email" class="u-fill-width" placeholder="email"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="nine columns">
+            <input class="button-primary" type="submit" value="Save Attendee">
+                </div>
+    </div>
+</form>
+
+<div class="row">
+    <div class="u-full-width">
+        <h5>List of attendees</h5>
+    </div>
+</div>
+
+#loop(attendees, "attendee") {
+<div class="row">
+    <div class="three columns">
+        <p><span>#(attendee.name)</span></p>
+    </div>
+    <div class="six columns">
+        <p><span>#(attendee.email)</span></p>
+    </div>
+    <div class="three columns">
+        <form action="/admin/#(attendee.id)/delete" method="post">
+            <input type="submit" value="Delete"/>
+        </form>
+    </div>
+</div>
+}
+}
+
