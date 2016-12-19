@@ -15,6 +15,14 @@
                     <h4>Admin panel</h4>
                 </div>
             </div>
+            <div class="row">
+                <div class="three columns">
+                    <a href="/admin">Attendees list</a>
+                </div>
+                <div class="five columns">
+                    <a href="/help">API commands help</a>
+                </div>
+            </div>
             #import("body")
         </div>
     </body>

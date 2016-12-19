@@ -21,7 +21,10 @@ drop.group("api") { api in
     api.resource("attendees", AttendeesController())
 }
 
-let controller = AdminController()
-controller.addRoutes(drop: drop)
+let adminController = AdminController()
+adminController.addRoutes(drop: drop)
+
+let helpController = HelpController()
+helpController.addRoutes(drop: drop)
 
 drop.run()

@@ -22,7 +22,7 @@
     <div class="row">
         <div class="nine columns">
             <input class="button-primary" type="submit" value="Save Attendee">
-                </div>
+        </div>
     </div>
 </form>
 
