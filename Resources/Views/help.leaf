@@ -33,7 +33,7 @@
         <tr>
             <td>POST</td>
             <td>/api/attendees</td>
-            <td>name,email</td>
+            <td>name, email</td>
             <td>Create new attendee</td>
         </tr>
     </tbody>

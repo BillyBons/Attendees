@@ -11,16 +11,32 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="u-full-width">
-                    <h4>Admin panel</h4>
+                <div class="two columns">
+                    <a href="/admin">Attendees list</a>
+                </div>
+                <div class="three columns">
+                    <a href="/help">API commands help</a>
                 </div>
             </div>
             <div class="row">
-                <div class="three columns">
-                    <a href="/admin">Attendees list</a>
+                <div class="one column">
+                    <img src="/images/graph.png" alt="Logo" style="width:50px;height:50px;">
                 </div>
                 <div class="five columns">
-                    <a href="/help">API commands help</a>
+                    <h4><b>Admin panel</b></h4>
+                </div>
+                <div class="two columns">
+                    <img src="/images/vapor-logo.png" alt="Logo" style="width:140px;height:35px;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://vapor.codes/">Vapor</a>
+                </div>
+                <div class="one column">
+                    <img src="/images/heroku.png" alt="Logo" style="width:35px;height:35px;">
+                    <a href="https://www.heroku.com/">Heroku</a>
+                </div>
+                <div class="one column">
+                    <img src="/images/postgres.png" alt="Logo" style="width:40px;height:35px;">
+                    <a href="https://www.postgresql.org/">Postgresql</a>
                 </div>
             </div>
             #import("body")
