@@ -47,19 +47,19 @@
 
 <pre><code>[
     {
-    "email": "billy@qwe.com",
-    "id": 1,
-    "name": "Billy Bons"
+    "email": "chan@qwe.com",
+    "id": 8,
+    "name": "Jackie Chan"
     },
     {
-    "email": "helena@qwe.com",
-    "id": 2,
-    "name": "Helena"
+    "email": "arny@qwe.com",
+    "id": 9,
+    "name": "Arnold Schwarzenegger"
     },
     {
-    "email": "antony@qwe.com",
-    "id": 3,
-    "name": "Antony"
+    "email": "sylvester@qwe.com",
+    "id": 10,
+    "name": "Sylvester Stallone"
     }
 ]
 </code></pre>
@@ -71,9 +71,9 @@
 </div>
 
 <pre><code>{
-"email": "Johndo@qwe.qwe",
-"id": 4,
-"name": "John Do"
+"email": "chan@qwe.com",
+"id": 8,
+"name": "Jackie Chan"
 }
 </code></pre>
 }
